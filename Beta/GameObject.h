@@ -24,8 +24,8 @@ class GameObject : public Attacker, public Updateable
 private:
   TYPE name;
   TYPE race;
-  TYPE myClass;
-  TYPE age;
+  TYPE myClass; // <-- enum?
+  TYPE age; // <-- enum?
   TYPE gender;
   TYPE experience;
   TYPE hitpoints;
@@ -40,12 +40,14 @@ public:
   void SetName( TYPE name) ;
   TYPE GetName() const;
 
+  // enum?
   void SetClass( TYPE c);
   TYPE GetClass() const;
 
   void SetAge( TYPE age );
   TYPE GetAge() const;
   
+  // enum?
   void SetGender( TYPE g );
   TYPE GetGender() const;
   
