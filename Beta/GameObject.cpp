@@ -80,6 +80,7 @@ GameObject<TYPE>::GetName() const
 	return name;
 }
 
+// enum?
 template<class TYPE>
 void 
 GameObject<TYPE>::SetClass( TYPE c)
@@ -87,6 +88,7 @@ GameObject<TYPE>::SetClass( TYPE c)
 	myClass = c;
 }
 
+// enum?
 template<class TYPE>
 Class 
 GameObject<TYPE>::GetClass() const
@@ -108,6 +110,7 @@ GameObject<TYPE>::GetAge() const
 	return age;
 }
 
+// enum?
 template<class TYPE>
 void 
 GameObject<TYPE>::SetGender( TYPE g )
@@ -115,6 +118,7 @@ GameObject<TYPE>::SetGender( TYPE g )
 	gender = g;
 }
 
+// enum?
 template<class TYPE>
 Gender 
 GameObject<TYPE>::GetGender() const
