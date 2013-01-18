@@ -4,7 +4,7 @@
 #include "Enemy.h"
 #include <sstream>
 ////////////////////////////////////////////////////////////////////////////////
-// --- Nina Ranta --- added full specialization for bool type
+// --- Nina Ranta --- added full specialization for boolean type
 template <>
 class Chambers<bool> : public Room
 {
