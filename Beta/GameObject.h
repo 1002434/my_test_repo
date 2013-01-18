@@ -25,8 +25,8 @@ private:
   TYPE name;
   TYPE race;
   TYPE myClass; // <-- enum?
-  TYPE age; // <-- enum?
-  TYPE gender;
+  TYPE age; 
+  TYPE gender; // <-- enum?
   TYPE experience;
   TYPE hitpoints;
 
